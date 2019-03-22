@@ -656,12 +656,4 @@ Please remember to:
 
 
 
-<hr>
-<a name="21"></a>
-<br>
-
-## 21: Bonus: Bioinformatics & Genomics in industry  
-
-Friday March 15th at 1pm come and enjoy a set of short open ended guest lectures from leading genomic scientists at Illumina Inc., Synthetic Genomics Inc., Samumed and the La Jolla Institute for Allergy and Immunology. Come prepared for networking and to have your questions about industry careers in Bioinformatics and Genomics answered.  
-
 
