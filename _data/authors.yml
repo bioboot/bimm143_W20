@@ -12,11 +12,11 @@ barry:
     : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: <bjgrant@ucsd.edu>)
 
     Instructional Assistants
-    : Alena Martsul (Email: <amartsul@ucsd.edu>)
-    : Kelly Flanders (Email: <kflander@ucsd.edu>)  
+    : Yan Liang (Email: <yal069@ucsd.edu>)
+    : Nhien Nguyen (Email: <n7nguyen@ucsd.edu>)  
 
     Course Syllabus
-    : [Winter 2019 (PDF)](https://bioboot.github.io/bimm143_W19/class-material/BIMM143_W19_syllabus.pdf){:.no-push-state}
+    : [Spring 2019 (PDF)](https://bioboot.github.io/bimm143_S19/class-material/BIMM143_S19_syllabus.pdf){:.no-push-state}
     {:.message}
 
 #    : [Ileena Mitra](https://bioboot.github.io/bggn213_f17/ileenamitra@eng.ucsd.edu) (Email: <ileenamitra@eng.ucsd.edu>)
@@ -27,7 +27,7 @@ barry:
 
   # This photo will be used in the about section
   picture:
-    src:             /bimm143_W19/assets/img/logo.png
+    src:             /bimm143_S19/assets/img/logo.png
 ##    src:             '{{ site.baseurl }}/assets/img/logo.png'
     # srcset is optional, but can be used to provide higher res versions for retina displays
     #srcset:
@@ -74,7 +74,7 @@ barry:
     # stumbleupon:     <username>
     # paypal:          <username>
     email:           mailto:<bjgrant@ucsd.edu>
-    rss:             https://bioboot.github.io/bimm143_W19/feed.xml
+    rss:             https://bioboot.github.io/bimm143_S19/feed.xml
 
 # Another author
 ileena:

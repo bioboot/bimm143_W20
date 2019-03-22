@@ -51,7 +51,7 @@ Course Director
 : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: [bjgrant@ucsd.edu](mailto:bjgrant@ucsd.edu))
 
 Course Syllabus
-: [Spring 2018 (PDF)](https://bioboot.github.io/bimm143_S18/class-material/BIMM143_S18_syllabus.pdf){:.no-push-state}
+: [Spring 2019 (PDF)](https://bioboot.github.io/bimm143_S19/class-material/BIMM143_S19_syllabus.pdf){:.no-push-state}
 {:.message}
 
  
