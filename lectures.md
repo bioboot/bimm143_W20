@@ -45,22 +45,22 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
 - Understand the increasing necessity for computation in modern life sciences research.  
 - Get introduced to how bioinformatics is practiced.  
-- Complete the [pre-course questionnaire](https://forms.gle/vLMrYfC9BUjvFr6g6).  
+- Complete the [pre-course questionnaire](https://forms.gle/vLMrYfC9BUjvFr6g6){:target="_blank"}.  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
 - The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.
 
 <!-- MAKE PRE-COURSE QUESTIONNAIRE and UPDATE LECTRUE SLIDES -->
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state},      
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-1-bimm143.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://forms.gle/AYLzthrUPqLkC5R68){:.no-push-state},    
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},      
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-1-bimm143.pdf){:target="_blank"}{:.no-push-state}  
+- Feedback: [Muddy Point Assessment](https://forms.gle/AYLzthrUPqLkC5R68){:.no-push-state}{:target="_blank"},    
 
-- Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_S19_syllabus.pdf){:.no-push-state}  
+- Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_S19_syllabus.pdf){:.no-push-state}{:target="_blank"},  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
-- [Questions](https://forms.gle/eig1u9LmxFdm4xea7){:.no-push-state},  
+- [Questions](https://forms.gle/eig1u9LmxFdm4xea7){:.no-push-state}{:target="_blank"},  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state}.  
