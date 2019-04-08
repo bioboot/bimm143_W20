@@ -142,15 +142,15 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Material**:   
  
- - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state},    
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143_F18-lab.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://goo.gl/forms/htL0o57Va4Ny2MwL2){:.no-push-state}.   
+ - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},    
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143-lab.pdf){:.no-push-state}{:target="_blank"},  
+- Feedback: [Muddy Point Assessment](https://forms.gle/8CUjrkqV95Khu56C9){:.no-push-state}{:target="_blank"}.   
   
 
 
 
 **Homework**:   
-- [DataCamp Sign Up: see your UCSD email invite!](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19){:.no-push-state},  
+- [DataCamp Sign Up: see your UCSD email invite!](https://www.datacamp.com){:.no-push-state},  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
 
