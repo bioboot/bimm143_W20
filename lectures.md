@@ -144,6 +144,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},    
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143-lab.pdf){:.no-push-state}{:target="_blank"},  
+- Bonus: [Alignment App](https://bioboot.github.io/bimm143_S19/class-material/nw/){:.no-push-state}{:target="_blank"},  
 - Feedback: [Muddy Point Assessment](https://forms.gle/8CUjrkqV95Khu56C9){:.no-push-state}{:target="_blank"}.   
   
 
