@@ -170,14 +170,14 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
  
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/d23JGkVJyr0EcpTg2){:.no-push-state},  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe9BUrwENHY3YNiEb-K6eQd8wxqAQ82e7XKCcrlF3ntj9OVZw/viewanalytics){:.no-push-state}.  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/d23JGkVJyr0EcpTg2){:.no-push-state}{:target="_blank"},  
+  
 
 
 **Homework**:   
-- [DataCamp Assignment: Into to R!](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19/assignments){:.no-push-state}.    
+- [DataCamp Assignment: Into to R!](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.    
 
 
 
@@ -197,16 +197,17 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-small.pdf){:.no-push-state},  
-- Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/05_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/05_draw_lecture_plots2/){:.no-push-state},  
-- Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/lecture5_lab_web.html){:.no-push-state}, 
-- Lab: [PDF suplement]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state}, 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
+- Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/05_draw_circle_points/){:.no-push-state}{:target="_blank"}, and [more advanced plots]({{ site.baseurl }}/class-material/05_draw_lecture_plots2/){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/lecture5_lab_web.html){:.no-push-state}{:target="_blank"},
+- Lab: [Supplement: Plotting with color in R]({{ site.baseurl }}/class-material/Rcolor.html){:.no-push-state}{:target="_blank"}, 
+- Lab: [PDF suplement]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state}{:target="_blank"}, 
 - Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/fYiwVbi7XsMKKGSS2){:.no-push-state},  
+- Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
  
  
 **Homework**:   
-- This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19/assignments){:.no-push-state}.   
+- This units homework is all [via **DataCamp** (Intro to R, RStudio IDE, Intermideate R)](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.   
  
 
 
