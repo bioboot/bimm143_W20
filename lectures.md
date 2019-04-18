@@ -226,15 +226,15 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Be able to follow a step by step process of going from a working code snippet to a more robust function.
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-small.pdf){:.no-push-state},
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/IJ6QDV5fyyqnO3t53){:.no-push-state},  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}{:target="_blank"},  
+- Feedback: [Muddy point assessment](https://forms.gle/8EaXUypQFPKucYME8){:.no-push-state}{:target="_blank"},  
 
 
 **Homework**:   
-- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 01/31**).    
-- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19/assignments){:.no-push-state}.   
+- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9:30am **Th, 04/25/19**).    
+- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/){:.no-push-state}.   
  
 
 
