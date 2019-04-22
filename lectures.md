@@ -253,15 +253,15 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-small.pdf){:.no-push-state},  
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1fKRuR-KLgcFZeoky3coLp2UaFaaYonCTWOJLTmlCMD0/edit?usp=sharing){:.no-push-state},    
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1_z9t-w0L4DFq-Zs_SZ7J4TUFiJc8dcB6p1CWn0Ef81Q/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/wBXLNFE4iKMn1wv92){:.no-push-state}.      
+- Feedback: [Muddy point assessment](https://forms.gle/eUNPU9xAV2WLabu28){:.no-push-state}.      
 - SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}.   
  
  
 **Homework**:   
- See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_F18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
-- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-bimm143-w19/assignments){:.no-push-state}.   
+ See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
+- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/){:.no-push-state}.   
  
 
 
