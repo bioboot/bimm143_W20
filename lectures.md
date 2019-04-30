@@ -252,9 +252,9 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Be able to write and (re)use basic R scripts to aid with reproducibility.  
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-small.pdf){:.no-push-state},  
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1_z9t-w0L4DFq-Zs_SZ7J4TUFiJc8dcB6p1CWn0Ef81Q/edit?usp=sharing){:.no-push-state},    
-- [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1_z9t-w0L4DFq-Zs_SZ7J4TUFiJc8dcB6p1CWn0Ef81Q/edit?usp=sharing){:.no-push-state}{:target="_blank"},    
+- [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"},  
 - Feedback: [Muddy point assessment](https://forms.gle/eUNPU9xAV2WLabu28){:.no-push-state}.      
 - SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}.   
  
@@ -286,9 +286,9 @@ Practical considerations and best practices for the analysis of high dimensional
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-small.pdf){:.no-push-state},  
-- WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/pca/){:.no-push-state},  
-- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-8-bimm143.html){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
+- WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/pca/){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-8-bimm143.html){:.no-push-state}{:target="_blank"},  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state},   
 - Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSdiQn7n6XvvRGq5AfQWaRa7G22-twFCN4bYNANCWSK09DBYZg/viewform){:.no-push-state}.  
 
@@ -308,13 +308,13 @@ Practical considerations and best practices for the analysis of high dimensional
 - Be able to apply and test combinations of PCA, k-means and hierarchical clustering to high dimensional datasets and critically review results.
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-9-bimm143.html){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-9-bimm143.html){:.no-push-state}{:target="_blank"},  
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.     
-- Bio3D PCA App: [http://bio3d.ucsd.edu/pca-app/](http://bio3d.ucsd.edu/pca-app/){:.no-push-state}.   
+- Bio3D PCA App: [http://bio3d.ucsd.edu/pca-app/](http://bio3d.ucsd.edu/pca-app/){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://goo.gl/forms/1dkWdpJ4BNgtGHsR2){:.no-push-state}.   
 
-- Bonus: [Kevin’s StackExchange Link on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}.   
+- Bonus: [Kevin’s StackExchange Link on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}{:target="_blank"}.   
 
 
 <hr>
@@ -327,17 +327,17 @@ The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Proj
 
 You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.  
  
-Your responses to questions Q1-Q4 are due at the beginning of class **Thursday Feb 21st** (02/21/19).   
+Your responses to questions Q1-Q4 are due at the beginning of class **Thursday May 16th** (05/16/19).   
 
-The complete assignment, including responses to all questions, is due at the beginning of class **Tuesday Mar 12th** (03/12/19).  
+The complete assignment, including responses to all questions, is due at the beginning of class **Tuesday June 6th** (06/04/19).  
 
 Late responses will not be accepted under any circumstances.  
 
 ## Bonus: Hands-on with Git  
 Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_small.pdf){:.no-push-state},  
-- Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_small.pdf){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state}{:target="_blank"},  
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
 
 
