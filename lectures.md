@@ -361,9 +361,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_F18.pdf){:.no-push-state}{:target="_blank"},  
-- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}{:target="_blank"}, 
+- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}{:target="_blank"} , 
 - Alternate Windows install and setup cmd: `curl -o "muscle.exe" "https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86win32.exe"`   
-- Alternative Mac install and setup cmd: `curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/muscle"; chmod +x /usr/local/bin/muscle`  
+- Alternative Mac install and setup cmd: `sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/muscle"; sudo chmod +x /usr/local/bin/muscle`  
 - Feedback: [Muddy point assessment](https://forms.gle/3eDPRMCZt23rGNaH8){:.no-push-state}.   
 
 
