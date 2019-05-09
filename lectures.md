@@ -352,10 +352,11 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Topics**: Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, Predicting functional dynamics, Inferring protein function from structure.
 
 **Goal**: 
-- View and interpret the structural models in the PDB,
-- Understand the classic `Sequence>Structure>Function` via energetics and dynamics paradigm,
-- Appreciate the role of bioinformatics in mapping the ENERGY LANDSCAPE of biomolecules,
-- Be able to use the Bio3D package for exploratory analysis of protein sequence-structure-function-dynamics relationships.    
+- View and interpret the structural models in the PDB,  
+- Understand the classic `Sequence>Structure>Function` via energetics and dynamics paradigm,  
+- Be able to use VMD for biomolecular visualization and analysis,  
+- Appreciate the role of bioinformatics in mapping the ENERGY LANDSCAPE of biomolecules,  
+- Be able to use the Bio3D package for exploratory analysis of protein  sequence-structure-function-dynamics relationships.    
 
 
 **Material**:  
@@ -374,41 +375,13 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 <br>
 
 ## 12: Bioinformatics in drug discovery and design 
-**Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular complexes and drug optimization. 
+**Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular dynamics, conformational variants and functional dynamics; Molecular simulation and drug optimization.
 
 **Goals**:    
 - Appreciate how bioinformatics can aid drug discovery,  
-- Be able to use Maestro for biomolecular visualization and analysis,
-- Be able to perform *In silico* docking and virtual screening strategies for drug discovery,
-- Understand the increasing role of bioinformatics in the drug discovery process.  
-
-
-**Material**:   
-- Software Download: [Schrödinger Discovery Suite](https://www.schrodinger.com/downloads/releases){:.no-push-state},  
-- Software Product Key: **f4191b5b-56da-4a78-ad2d-0121e94c1827**   
-- Pre-Class Survey: [Form One](https://goo.gl/forms/yy2lTwaBWNb7m9BY2){:.no-push-state},  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Glide_VirtualScreening-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/Glide_VirtualScreening-small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for *In silico* drug docking]({{ site.baseurl }}/class-material/Visualization_Preparation_wHW.pdf){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/mRd80EGeyXokyASg1){:.no-push-state},  
-- Post-Class Survey: Form Two.  
-
-
-**VMs**:  
-- URL: [http://ucsdnov8.tsg.schrodinger.com](http://ucsdnov8.tsg.schrodinger.com){:.no-push-state},
-- Login Deatails: [Username and passwords]({{ site.baseurl }}/class-material/Workshop-User-Accounts.pdf){:.no-push-state}.  
-
-
-<hr>
-<a name="13"></a>
-<br>
-
-## 13: Structural Bioinformatics II 
-**Topics**: Revisiting bioinformatics approaches to drug discovery. Computational high throughput screening ; Receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular motion, conformational variants and functional dynamics; Molecular simulation and drug optimization.
-
-**Goals**:    
-- Appreciate how bioinformatics can predict functional dynamics & further aid drug discovery,  
-- Be able to apply open-source *In silico* docking and virtual screening strategies for drug discovery,
-- Be able to use Bio3D for the analysis and prediction of protein flexibility,
+- Be able to perform *In silico* docking and virtual screening strategies for drug discovery,  
+- Appreciate how bioinformatics can predict the functional dynamics of biomolecules,  
+- Be able to use Bio3D for the analysis and prediction of protein flexibility,  
 - Understand the increasing role of bioinformatics in pharma and the drug discovery process in particular.  
 
 
@@ -423,10 +396,10 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 <hr>
-<a name="14"></a>
+<a name="13"></a>
 <br>
 
-## 14: Genome informatics and high throughput sequencing (Part 1) 
+## 13: Genome informatics and high throughput sequencing (Part 1) 
 **Topics**: Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2
 
 **Goals**: 
@@ -490,10 +463,10 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 <hr>
-<a name="15"></a>
+<a name="14"></a>
 <br>
 
-## 15: Transcriptomics and the analysis of RNA-Seq data
+## 14: Transcriptomics and the analysis of RNA-Seq data
 **Topics**: Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis.
 
 **Goals**:
@@ -519,11 +492,11 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 <hr>
-<a name="16"></a>
+<a name="15"></a>
 <br>
 
 
-## 16: Genome annotation and the interpretation of gene lists 
+## 15: Genome annotation and the interpretation of gene lists 
 **Topics**: Gene finding and functional annotation from high throughput sequencing data, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
 
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
@@ -542,13 +515,12 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Readings**:    
  - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
 
-  
-  
 
+ 
+<hr>
+<a name="16"></a>
+<br>
 
-
-
-<!--
 
 ## 16: Essential statistics for bioinformatics 
 **Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask! Extensive R examples and applications.
@@ -562,7 +534,6 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
   - [RNA-seq_PV_neurons_rep2_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_PV_neurons_rep2_TPM_by_names.tsv){:.no-push-state}.   
 - Feedback: [Muddy point assessment](https://goo.gl/forms/YBPM7MoMTqKNnLoV2){:.no-push-state}.  
 
--->
 
 
 
