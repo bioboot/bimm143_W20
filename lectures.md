@@ -481,7 +481,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}.
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state}{:target="_blank"} instructions.
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture15-BIMM143_F18-lab/){:.no-push-state}{:target="_blank"},
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-14-bimm143.html){:.no-push-state}{:target="_blank"},
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.
 - [Muddy point assessment](https://goo.gl/forms/CjzYyzBT0VsuOvBt2){:.no-push-state}.  
 
