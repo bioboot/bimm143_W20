@@ -52,7 +52,7 @@ body{
 
 
 
-Barry Grant &lt; <http://thegrantlab.org/bggn213/> &gt;  
+Barry Grant &lt; <http://thegrantlab.org/bimm143/> &gt;  
 `r format(Sys.time(), "%Y-%m-%d  (%H:%M:%S on %a, %b %d)")`    
   
 
