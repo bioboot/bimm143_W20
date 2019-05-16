@@ -1,12 +1,12 @@
 ---
 layout: page
-title: BIMM-143, Lecture 15
+title: BIMM-143, Lecture 14
 ---
 
 ## Transcriptomics and the analysis of RNA-Seq data
 
 
-**BIMM-143 Lecture 15:**  
+**BIMM-143 Lecture 14:**  
 Barry Grant &lt; <http://thegrantlab.org> &gt;  
 2018-11-15   (20:39:14 PST on Thu, Nov 15)  
 {:.message}
@@ -32,11 +32,11 @@ As we already noted back in [Lecture 7](https://bioboot.github.io/bimm143_W18/le
 Bioconductor packages are installed differently than "regular"" R packages from CRAN. To install the core Bioconductor packages, copy and paste the following lines of code into your R console one at a time.
 
 ``` r
-source("http://bioconductor.org/biocLite.R")
-biocLite()
+install.packages("BiocManager")
+BiocManager::install()
 
 # For this class, you'll also need DESeq2:
-biocLite("DESeq2")
+BiocManager::install("DESeq2")
 ```
 
 The entire install process can take some time as there are many packages with dependencies on other packages. For some important notes on the install process please see our [Bioconductor setup notes](https://bioboot.github.io/bimm143_W18/class-material/bioconductor_setup/). Your install process may produce some notes or other output. Generally, as long as you don’t get an error message, you’re good to move on. If you do see error messages then again please see our [Bioconductor setup notes](https://bioboot.github.io/bimm143_W18/class-material/bioconductor_setup/) for debugging steps.

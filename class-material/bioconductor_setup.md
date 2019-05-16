@@ -8,11 +8,11 @@ As we already noted back in [Lecture 7]({{ site.baseurl }}/lectures/#7) Biocondu
 Bioconductor packages are installed differently than "regular" R packages from CRAN. To install the core Bioconductor packages ([more information here](https://www.bioconductor.org/install/)), copy and paste these lines of code into your R console **one at a time**. 
 
 ```r
-source("http://bioconductor.org/biocLite.R")
-biocLite()
+install.packages("BiocManager")
+BiocManager::install()
 
 # For this class, you'll also need DESeq2:
-biocLite("DESeq2")
+BiocManager::install("DESeq2")
 ```
 
 ### Important notes on the install process
@@ -48,7 +48,15 @@ Note there is no parenthesis in the above command. For me it returns:
 
 ```r
 R.version.string
-### [1] "R version 3.4.1 (2017-06-30)"
+### [1] "R version 3.5.1 (2018-07-02)"
 ```
 
+If you are on an old version (before 3.5.0 please) use the following for installing Bioconductor packages: 
 
+```r
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+
+# For this class, you'll also need DESeq2:
+biocLite("DESeq2")
+```
