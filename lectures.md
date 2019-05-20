@@ -26,7 +26,7 @@ All Lectures are Tu/Th 9:30-12:30 pm in TATA 2501 (<a href="https://goo.gl/maps/
 |  13 | Tue 05/14/19 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2                                                                                                                 |
 |  14 | Thu 05/16/19 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today!                                                                                                                                                                                      |
 |  15 | Tue 05/21/19 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment                                                                                                                                                                                                                                                                               |
-|  16 | Thu 05/23/19 | [**Essential statistics for bioinformatics**](#16) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications.                                                                                                                                                                                                                                                                                  |
+|  16 | Thu 05/23/19 | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.                                                                                                                                                                                                                                                                                  |
 |  17 | Tue 05/28/19 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. |
 |  18 | Thu 05/30/19 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due before next class!                                                                              |
 |  19 | Tue 06/04/19 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!**                                                                                                                                                                                                                                                                                                                            |
@@ -519,25 +519,56 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
  - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
 
 
- 
+
 <hr>
 <a name="16"></a>
 <br>
 
-
-## 16: Essential statistics for bioinformatics 
-**Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask! Extensive R examples and applications.
-
-**Material**:   
-- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143_W18-large.pdf){:.no-push-state}.  
-- Data files: 
-  - [RNA-seq_excitatory_neurons_rep1_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_excitatory_neurons_rep1_TPM_by_names.tsv){:.no-push-state}, 
-  - [RNA-seq_excitatory_neurons_rep2_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_excitatory_neurons_rep2_TPM_by_names.tsv){:.no-push-state}, 
-  - [RNA-seq_PV_neurons_rep1_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_PV_neurons_rep1_TPM_by_names.tsv){:.no-push-state}, 
-  - [RNA-seq_PV_neurons_rep2_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_PV_neurons_rep2_TPM_by_names.tsv){:.no-push-state}.   
-- Feedback: [Muddy point assessment](https://goo.gl/forms/YBPM7MoMTqKNnLoV2){:.no-push-state}.  
+## 16: Essential UNIX for bioinformatics 
+**Topics**: Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.
 
 
+**Goal:**  
+- Understand why we use UNIX for bioinformatics
+- Use UNIX command-line tools for file system navigation and text file manipulation.
+- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.
+- Be able to connect to remote servers from the command line.
+- Use existing programs at the UNIX command line to analyze bioinformatics data.  
+- Understand IO Redirection, Streams and pipes.
+- Understand best practices for organizing computational projects.  
+
+
+**Material**:  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213-small.pdf){:.no-push-state},  
+- Hands-on section worksheet
+  * [Using remote UNIX machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/){:.no-push-state},
+  * [Using remote UNIX machines (Part II)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
+  * [Using remote UNIX machines (Part III)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
+- Example data set [bggn213_01_unix.zip]({{ site.baseurl }}/class-material/bggn213_01_unix.zip){:.no-push-state},  
+- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
+
+
+## IPs    
+- 129.114.104.195
+- 129.114.16.68
+
+- 129.114.16.71
+- 129.114.16.42
+
+- 149.165.169.92
+- 149.165.169.88
+
+- 129.114.16.63
+- 149.165.169.130 *
+
+- 149.165.169.80
+- 149.165.169.48
+
+- 129.114.16.60
+- 129.114.16.75
+
+- 149.165.169.94
+- 149.165.169.100
 
 
 
