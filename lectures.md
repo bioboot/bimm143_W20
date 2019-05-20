@@ -505,14 +505,14 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-small.pdf){:.no-push-state}.  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture16_BIMM143_F18.html){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143-small.pdf){:.no-push-state}.  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-15-bimm143.html){:.no-push-state}{:target="_blank"},  
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
 - Muddy point assessment
  
 
 **R Knowledge Check**:
-[**Quiz Assessment**](https://goo.gl/forms/YsBgCL49Fa7PGXlT2){:.no-push-state} 
+[**Quiz Assessment**](https://forms.gle/gBFE25QwAAUc5Pyc9){:.no-push-state}{:target="_blank"}. 
 
 
 **Readings**:    
