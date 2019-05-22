@@ -312,11 +312,7 @@ You can double check with:
 rstudio-server status
 ```
 
-Push 'q' to exit and note that you should see a line saying *"Active: active (running)"*. If not you can start the server with the command:
-
-```
-rstudio-server start
-```
+Push 'q' to exit and note that you should see a line saying *"Active: active (running)"*. 
 
 
 ### 9B. Figure out your machines Web address to connect to.
