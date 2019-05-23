@@ -539,7 +539,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213-small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-small.pdf){:.no-push-state},  
 - Hands-on section worksheet
   * [Using remote UNIX machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/){:.no-push-state},
   * [Using remote UNIX machines (Part II)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
@@ -593,6 +593,11 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - 149.165.171.9  
 - 149.165.171.152 (HOLD 28)
 
+- 129.114.104.70  
+- 129.114.104.241  
+
+- 129.114.104.17  
+-
 
 
 <hr>
