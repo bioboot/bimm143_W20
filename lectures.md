@@ -653,8 +653,11 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
   - [virus_prok_cor_abundant.tsv]({{ site.baseurl }}/class-material/virus_prok_cor_abundant.tsv){:.no-push-state},  
   - [phage_ids_with_affiliation.tsv]({{ site.baseurl }}/class-material/phage_ids_with_affiliation.tsv){:.no-push-state}, 
   - [prok_tax_from_silva.tsv]({{ site.baseurl }}/class-material/prok_tax_from_silva.tsv){:.no-push-state}.  
-- Muddy point assessment
+- Muddy point assessment  
+
  
+**Reference**:
+- A nice comprehensive tutorial on [network visualization with R](https://kateto.net/network-visualization){:.no-push-state}{:target="_blank"}.
 
   
 
