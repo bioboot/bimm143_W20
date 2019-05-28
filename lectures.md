@@ -539,13 +539,13 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-small.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
 - Hands-on section worksheet
-  * [Using remote UNIX machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/){:.no-push-state},
+  * [Using remote UNIX machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/){:.no-push-state}{:target="_blank"},
   * [Using remote UNIX machines (Part II)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
   * [Using remote UNIX machines (Part III)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
 - Example data set [bggn213_01_unix.zip]({{ site.baseurl }}/class-material/bggn213_01_unix.zip){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
+- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}{:target="_blank"}.  
 
 
 ## IPs    
@@ -642,10 +642,10 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Appreciate that the igraph R package has extensive network analysis functionality beyond that in Cytoscape and that the R bioconductor package RCy3 package allows us to bring networks and associated data from R to Cytoscape so we can have the best of both worlds. 
 
 **Material**:  
-- Software Download: [Cytoscape](https://cytoscape.org/download.html){:.no-push-state},  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-small.pdf){:.no-push-state}.  
-- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BIMM143_S18_lab1.pdf){:.no-push-state}  
-- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18/){:.no-push-state}  
+- Software Download: [Cytoscape](https://cytoscape.org/download.html){:.no-push-state}{:target="_blank"},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}.  
+- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BIMM143_S18_lab1.pdf){:.no-push-state}{:target="_blank"},  
+- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_S19_new.html){:.no-push-state}{:target="_blank"},  
 - Data files:  
   - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
   - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
@@ -666,16 +666,16 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Topics**: Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects; NCI Genomic Data Commons; What has been learned from genome sequencing of cancer? **Immunoinformatics, immunotherapy  and cancer**; Using genomics and bioinformatics to harness a patient’s own immune system to fight cancer. Implications for the development of personalized medicine.
 
 **Material**: 
-- Lecture Slides: [Pt1 Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Barry-large.pdf){:.no-push-state}, [Pt1. Small PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Barry-small.pdf){:.no-push-state}, [Pt2 Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Bjoern-large.pdf){:.no-push-state}.  
-- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BIMM143_W19.html){:.no-push-state}  
-- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BIMM143_W18/){:.no-push-state}  
+- Lecture Slides: [Pt1 Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Barry-large.pdf){:.no-push-state}{:target="_blank"}, [Pt1. Small PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Barry-small.pdf){:.no-push-state}, [Pt2 Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Bjoern-large.pdf){:.no-push-state}{:target="_blank"},  
+- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BIMM143_W19.html){:.no-push-state}{:target="_blank"},  
+- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BIMM143_W18/){:.no-push-state}{:target="_blank"},  
 - Data files:  
-  - [lecture18_sequences.fa]({{ site.baseurl }}/class-material/lecture18_sequences.fa){:.no-push-state},  
+  - [lecture18_sequences.fa]({{ site.baseurl }}/class-material/lecture18_sequences.fa){:.no-push-state}{:target="_blank"},  
 - Solutions:  
   - Example [mutant identification and subsequence extraction with R]({{ site.baseurl }}/class-material/lecture18_part2_example/){:.no-push-state} walk through.    
-  - [subsequences.fa]({{ site.baseurl }}/class-material/subsequences.fa){:.no-push-state},  
-  - [Solutions.pdf]({{ site.baseurl }}/class-material/Lecture18_part2_solutions.pdf){:.no-push-state}.  
-- IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
+  - [subsequences.fa]({{ site.baseurl }}/class-material/subsequences.fa){:.no-push-state}{:target="_blank"},  
+  - [Solutions.pdf]({{ site.baseurl }}/class-material/Lecture18_part2_solutions.pdf){:.no-push-state}{:target="_blank"}.  
+- IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}{:target="_blank"}.  
 
 - [Muddy point assessment](https://goo.gl/forms/fAvxn6xJOUDO5WQR2){:.no-push-state}.  
 
@@ -687,10 +687,10 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 ## 19: Course summary  
 **Topics**: Summary of learning goals, Student course evaluation time and exam preparation; Find a gene assignment due.  Open study.  
   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Lecture19_BIMM143.pdf){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Lecture19_BIMM143.pdf){:.no-push-state}{:target="_blank"},  
 
 
-- Hand-out: [**Exam guidlines, topics, and example questions**]({{ site.baseurl }}/class-material/BIMM143_exam_guidlines.pdf){:.no-push-state},  
+- Hand-out: [**Exam guidlines, topics, and example questions**]({{ site.baseurl }}/class-material/BIMM143_exam_guidlines.pdf){:.no-push-state}{:target="_blank"},  
 
 - Ether-pad: [**Feedback**](https://etherpad.net/p/bimm143_w19){:.no-push-state}.  
   
