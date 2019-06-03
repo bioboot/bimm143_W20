@@ -695,7 +695,13 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 - Hand-out: [**Exam guidlines, topics, and example questions**]({{ site.baseurl }}/class-material/BIMM143_exam_guidlines.pdf){:.no-push-state}{:target="_blank"},  
 
-- Ether-pad: [**Feedback**](https://etherpad.net/p/bimm143_s19){:.no-push-state}.  
+- Ether-pad: [**Feedback**](https://etherpad.net/p/bimm143_s19){:.no-push-state}{:target="_blank"}.  
+
+- DataCamp: [**Bioinformatics Extension Track**](https://www.datacamp.com/tracks/custom-bioinformatics-extension){:.no-push-state}{:target="_blank"}.  
+
+
+- Other Resources: [Advanced R book](http://adv-r.had.co.nz){:.no-push-state}{:target="_blank"}, [R for Data Science](https://r4ds.had.co.nz){:.no-push-state}{:target="_blank"};
+
   
 
 
