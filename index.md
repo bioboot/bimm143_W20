@@ -1,6 +1,6 @@
 ---
 layout: welcome
-title: Bioinformatics <br> (BIMM 143, Spring 2019)
+title: Bioinformatics <br> (BIMM 143, Fall 2019)
 selected_projects:
   - _projects/welcome-screencast.md
   - _projects/using-jetstream-for-bioinformatics.md
@@ -50,11 +50,11 @@ If you can't make any of these please email for a time and we will make it happe
 There is no textbook for the course. Lecture notes, homework assignments, grading criteria, pre-class screen casts and required reading material will be available from this public facing course website.  
 
 ## Syllabus:  
-A detailed [syllabus]({{ site.baseurl }}/class-material/BIMM143_S19_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
+A detailed [syllabus]({{ site.baseurl }}/class-material/BIMM143_F19_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
 
 ## Surveys:
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!
-* [Pre-course questionnaire](https://forms.gle/vLMrYfC9BUjvFr6g6)  
+* [Pre-course questionnaire](https://forms.gle/gEJQG9SdPSmf2ZS58)  
 * [Post-course questionnaire]({{ site.baseurl }}/404/)  
 
 ## Acknowledgments:
