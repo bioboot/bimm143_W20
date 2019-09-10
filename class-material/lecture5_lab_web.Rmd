@@ -1,9 +1,8 @@
 ---
-title: "Data exploration and visualization in R"
-author: "Barry Grant"
-date: "10/12/2018"
-output:
-    html_document:
+title: "BIMM-143, Lecture 5"
+subtitle: 'Data Exploration and Visualization in R'
+output: 
+    labsheet::labsheet_default:
         keep_md: true
         theme: cosmo
         highlight: pygments
@@ -11,118 +10,248 @@ output:
         toc_float: true
         toc_depth: 2
         number_sections: false
+        code_folding: show
         df_print: paged
-        code_folding: hide
+    word_document: 
+      reference_docx: !expr system.file('rmarkdown/templates/labsheet/skeleton/labsheet_template.docx', package='labsheet')
+      keep_md: true
+    pdf_document: default
 ---
 
-
-```{r setup, include=FALSE}
+<!-- Standard knitr setup with labsheet package loading -->
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+if (!requireNamespace("labsheet")) {
+  stop("You must install the 'labsheet' package to use this template.\n   devtools::install_github(\"bioboot/labsheet\")")
+} else {
+  library("labsheet")
+}
 ```
 
 
-**BIMM-143 Lecture 5:**  
-Barry Grant &lt; <http://thegrantlab.org> &gt;  
-2018-10-12   (09:03:06 PDT on Fri, Oct 12)  
-{:.message}  
+```{r getdata, echo=FALSE}
+f <- "https://bioboot.github.io/bimm143_F18/class-material/bimm143_05_rstats.zip"
+curl::curl_download(f, basename(f))
+unzip( basename(f) )
+```
 
-# Overiview
+<!-- Track Correct Student Responses -->
+`r score_counter()`
 
-One of the biggest attractions to the R programming language is that built into the language is the functionality required to have complete programmatic control over the plotting of complex figures and graphs. Whilst the use of these functions to generate simple plots is very easy, the generation of more complex multi-layered plots with precise positioning, layout, fonts and colors can be more challenging for new users.  
+<!-- Author, course URL and time-stamp details -->
+`r author(course="bimm143")`
 
-*Sections 1 to 4* are exercises designed to test and expand your familiarity with R base plotting. *Section 5* feature a rather detailed guide to plotting with base R and will be useful for answering the questions in the first four sections. My objective with the last section is to provide you with everything you would need to create plots for almost any kind of data you may encounter in the future.  
+# Overview
 
-> **Side-note:** While I have attempted to cover all of the major graph types you are likely to use as a newcomer to base R these are obviously not the only way to do plotting in R. There are many other R graphing packages and libraries, which can be imported and each of these has advantages and disadvantages. The most common, and ridiculously popular, external library is **ggplot2**, – we will introduce this add on package from CRAN next day.
+One of the biggest attractions of the R programming language is the ability to have complete programmatic control over the plotting of complex graphs and figures. In this session we will introduce *base R* functions for generating simple plots and explore the generation of more complex multi-layered figures with custom positioning, layout, fonts and colors.  
+
+**Sections 1 to 3** are exercises designed to test and expand your familiarity with R base plotting. **Section 4** feature a detailed guide to plotting with base R and will be useful for answering  questions throughout your subsequent projects. My objective with the last section is to provide you with everything you would need to create plots for almost any kind of data you may encounter in the future.  
+
+> **Side-note:** While I have attempted to cover all of the major graph types you are likely to use as an R newcomer these are obviously not the only way to do plotting in R. There are many other R graphing packages and libraries, which can be imported and each of these has advantages and disadvantages. The most common, and ridiculously popular, external library is **ggplot2**, – we will introduce this add on package from CRAN next day.
+
+
+
 
 # Section 1: Getting organized
+
 ## 1A. Creating a Project
-**1A.** We will begin by getting organized. This entails creating a new RStudio *Project*, creating a new R *script*, and downloading the input data we will use For this hands-on session.
 
-- Begin by opening RStudio and creating a new **Project** `File > New Project > New Directory > New Project` make sure you are working in the directory (a.k.a. folder!) where you want to keep all your work for this class organized. For example, for me this is a directory on my Desktop with the class name (see animated figure below). We will create our project as a *subdirectory* called `class05` in this location.
+**1A.** We will begin by getting organized with a new RStudio *Project* specifically for todays class. For now think of this as a folder on your computer where we will store all our work (documented in a new R *script*), input (the data we will analyze) and output (the graphs, figures and reports we will generate).  
 
-![](RStudio_project.gif)
+- Begin by opening RStudio and creating a new **Project** `File > New Project > New Directory > New Project` make sure you are working in the directory (a.k.a. folder!) where you want to keep all your work for this course organized. For example, for me this is a directory on my Desktop with the course name (see animated figure below). We will create our project as a *sub-directory* called `class05` in this location.
 
-The key step here is to name your project after this class session (i.e. "class05") and make sure it is a sub-directory of where ever you are organizing all your work for this class (see image below for an example).
+<br />
 
-![](rstudio_project.png)
+![](../RStudio_project.gif)
+
+<br />
+
+> The key step here is to name your project after this class session (i.e. "class05") and make sure it is a sub-directory of where ever you are organizing all your work for this course. **N.B.** Staying organized like this will be very helpful later in the course when we come to make an on-line portfolio of your work.
+
+---
 
 ## 1B. Getting data to plot
-**1B.** Your next task is to download the [ZIP file](https://bioboot.github.io/bimm143_F18/class-material/bimm143_05_rstats.zip) containing all the input data for this lab to your computer and move it to your RStudio project. 
+**1B.** Your next task is to download the [ZIP file](https://bioboot.github.io/bimm143_F18/class-material/bimm143_05_rstats.zip) containing all the input data for this lab to your computer and move it to your RStudio project folder. 
 
 - Download the [ZIP file](https://bioboot.github.io/bimm143_F18/class-material/bimm143_05_rstats.zip)
 - Note that on most computers this will typically unzip itself after downloading to create a new directory/folder named `bimm143_05_rstats`. Check your *Downloads* directory/folder. However, some computers may require you to double click on the ZIP file to begin the unzipping process. 
 - Once unzipped move the resulting `bimm143_05_rstats` folder into your R project directory. You can use your Finder window (on Mac) or File Explorer (on Windows) to do this.
 
+<br />
+
+![](../RStudio_mv_data.gif)
+
+## 1C. Create an R script   
+**1C.** Finally, open a new *R script*: `File > New File > R Script` and save as `class05.R`. This is nothing more than a text file where we can write and save our R code. The big advantage is that we will have a record of our work and thus be able to reproduce and automate our analysis later. We will also turn this into a fancy HTML and PDF report for sharing with others (more on this later...).
+
+<br />
+
+---
+
+<br />
+
 
 # Section 2: Customizing plots
 ## 2A. Line plot
-**2A.** The file **weight_chart.txt** from the example data you downloaded above contains data for a growth chart for a typical baby over the first 9 months of its life.  
+**2A.** Scatterplots represent the most common visualization when we want to show one quantitative variable relative to another. It is often helpful to add a line to indicate the relationship between *x* and *y* or when *x* represents a strictly increasing quantity such as time or drug dose etc.  
 
-Your first task is to get this data into R:
+These types of plots are produced with the **`plot()`** function. This function takes *x* (and optionally) *y* as input along with a vast number of additional optional input arguments that customize the the resulting plot. Here we will explore some of the most common customizations.  
+
+<!-- Start a boxed and colored question block -->
+`r question_start()`
+
+The file **weight_chart.txt** from the example data you downloaded above contains data for a growth of a typical baby over the first 9 months of life.  Your first task is to get this data into R:
 
 - Find the file `weight_chart.txt` in your RStudio **Files** panel. This should typically be on the right lower side of your RStudio window.
-- Click on the `weight_chart.txt` file to get a preview of its contents in RStudio.
-- How are the records in the file separated? Is there a comma, space, tab or other character between the data entries? Does the file have a *"Header"* line that contains the names of the variables (this is often the first line of a file)?     
 
-Now we know something about the file format we can decide on the R function to use for data reading into R.
+- Click on the `weight_chart.txt` file to get a preview of its contents in RStudio and answer the following questions.
 
-- Look at the help page for the `read.table()` function and decide on the function and arguments to use for importing the `weight_chart.txt` file.
-- What effect does setting and changing the argument `header=FALSE` to `header=TRUE` in your chosen **read** function?
-- Make sure to examine the object you create and store 
-- Add your working code for reading the file to your R script and make sure to save your file.
+- How are the records (i.e. columns) in the file separated? Is there a comma, space, tab or other character between the data entries? `r mcq(c("comma", answer = "space", "tab", "other"))` 
 
+- True or False? The file has a *"Header"* line that contains the names of the variables (this is often the first line of a file that gives information on each column of data)? `r torf(TRUE)`    
+`r question_end()`
+
+
+Now we know something about the file format we can decide on the R function to use for data reading (a.k.a. "importing") into R.
+
+`r question_start()`
+Look at the help page for the **`read.table()`** function and answer the following questions: 
+
+- What is a good **read** function to use for importing the `weight_chart.txt` file? `r mcq(c(answer = "read.table()", "read.csv()", "read.delim()"))`
+
+- What should you set the argument `header` equal to in this function for this input file? `r torf(TRUE)` 
+
+`r hide("Hint")`
+- Make sure to examine the object you create and store and note how changing between `header=FALSE` and `header=TRUE` changes your result.
+`r unhide()`
+
+- Add your working code for reading the file to your R script and **make sure to save your file!**.
+
+`r hide("Solution")`
+
+The trickiest part here, after deciding on the function to use and the `sep` and `header` arguments, is spelling out exactly where the input file is on your computer. 
 ```{r, read1}
 weight <- read.table("bimm143_05_rstats/weight_chart.txt", header=TRUE)
 ```
 
+Note that in the code above I needed to explicitly tell the `read.table()` function that the `weight_chart.txt` file resides in the folder `bimm143_05_rstats/` by giving it's directory name and file name together as `"bimm143_05_rstats/weight_chart.txt"`. 
 
-Use the `plot()` function to draw this as a point and line graph with the following changes:
+Note that the `bimm143_05_rstats/` folder (a.k.a. directory) name came from our downloaded zip archive and the forward slash character `/` at the end is used to separate directory and file names in the UNIX world. We will learn much more about the UNIX file system and how to use it productively in a future class all about UNIX. 
+`r unhide()`
+`r question_end()`
 
-- Change the point character to be a filled square (`pch=15`)
-- Change the plot point size to be 1.5x normal size (`cex=1.5`)
-- Change the line thickness to be twice the default size (`lwd=2`)
-- Change the y-axis to scale between 2 and 10kg (`ylim=c(2,10)`)
-- Change the x-axis title to be Age (months) (`xlab="Age (months)"`) 
-- Change the y-axis title to be Weight (kg) (`ylab="Weight (kg)"`)
-- Add a suitable title to the top of the plot (`main="Some title"`)
+`r question_start()`
+Now we will use the `plot()` function to plot this data as a point and line graph with various customizations. The intention here is for you to experiment and try changing and adding additional inoput arguments to the plot() function whilst examining the results at each step: 
 
+- Change the basic scatterplot produced by `plot(weight$Age, weight$Weight)` to a line plot. Which additional `type=` argument yielded the result you were after? `r mcq(c("l", "p", "b", answer="o"))`
 
-```{r, plot1}
+- What argument changes the point character to be a filled square? `r mcq(c("lwd=2", "lwd=0.5", "pch=4", answer="pch=15", "cex=1.5", "cex=0.5"))`
+
+- What argument changes the plot point size to be 1.5x normal size? `r mcq(c("lwd=2", "lwd=0.5", "pch=4", "pch=15", answer="cex=1.5", "cex=0.5"))`
+
+- What argument changes the line width thickness to be twice the default size? `r mcq(c(answer="lwd=2", "lwd=0.5", "pch=4", "pch=15", "cex=1.5", "cex=0.5"))`
+
+- What argument changes the y-axis limits to scale between 2 and 10kg? `r mcq(c("main", "xlab", "ylab", answer="ylim=c(2,10)"))`
+
+- What argument changes the x-axis label to be Age (months) `r mcq(c("main", answer="xlab", "ylab", "ylim=c(2,10)"))`
+
+- What argument changes the y-axis label to be Weight (kg)? `r mcq(c("main", "xlab", answer="ylab", "ylim=c(2,10)"))`
+
+- What argument add a suitable title to the top of the plot `r mcq(c(answer="main", "xlab", "ylab", "ylim=c(2,10)"))`
+
+`r hide("Hint")`
+Each extra input argument to an R function must be separated by a comma. For example:
+
+```{r}
+plot(weight$Age, weight$Weight, typ="o", pch=15)
+```
+
+Note how the `x`, `y`, `typ`, and `pch` are all comma separated. If you leave a comma out the code will give an error message.
+
+`r unhide()`
+
+<br />
+
+**Finally, in your R script write the complete code to generate the following plot and make sure you save your script!**
+
+```{r, plot1, echo=FALSE}
 
 plot(weight$Age, weight$Weight, typ="o", 
      pch=15, cex=1.5, lwd=2, ylim=c(2,10), 
      xlab="Age (months)", ylab="Weight (kg)", 
-     main="Baby weight with age") 
+     main="Baby weight with age", col="blue") 
 ```
 
+```{r eval = FALSE, labsheet.hide="**Solution**"}
+plot(weight$Age, weight$Weight, typ="o", 
+     pch=15, cex=1.5, lwd=2, ylim=c(2,10), 
+     xlab="Age (months)", ylab="Weight (kg)", 
+     main="Baby weight with age", col="blue") 
+
+```
+`r question_end()`
+
+
 ## 2B. Barplot
-**2B.** The file **feature_counts.txt** contains a summary of the number of features of different types in the mouse GRCm38 genome. 
+**2B.** The most common approach to visualizing amounts (i.e. numerical values shown for some set of categories) is using bars, either vertically or horizontally arranged. Here we will explore generating and customizing output of the **`barplot()`** function.
 
-- Read this data into R using the same overall procedure you used in section A above (i.e. check the format of the file to decide on the read function and arguments to use).
-- What is the field separater and header format of this file?
-- Can you plot this as a **barplot**. Note that the data you need to plot is contained within the **Count** column of the data frame, so you pass only that column as the data. 
+`r question_start()`
+The file **feature_counts.txt** contains a summary of the number of features of different types in the mouse GRCm38 genome. Read this data into R using the same overall procedure you used in section A above (i.e. check the format of the file to decide on the read function and arguments to use).
 
-```{r, read2}
+- What is the field separator of this file? `r mcq(c("comma", "space", answer="tab", "other"))` 
+
+- What should the `header` argument be set to for properly importing this file? `r torf(TRUE)`
+
+**Read this data into an object called `mouse` and then produce the following barplot. Be sure to save your working code in your R script.** 
+
+```{r, read2, echo=FALSE}
 mouse <- read.table("bimm143_05_rstats/feature_counts.txt", sep="\t", header=TRUE)
 
 barplot(mouse$Count)
 ```
 
+`r hide("More details")`
+
+Note that the data you need to plot is contained within the **Count** column of the data frame, so you pass only that column as the data. 
+
+`r unhide()`
+
+<br />
+
+- What should your code for the **barplot()** function call look like in this case? `r fitb("barplot(mouse$Count)")`
+
+
+`r hide("Solution")`
+```{r, read2_dummy, eval=FALSE}
+mouse <- read.table("bimm143_05_rstats/feature_counts.txt", sep="\t", header=TRUE)
+
+barplot(mouse$Count)
+```
+`r unhide()`
+
+<br />
+
 Once you have the basic plot above make the following changes:
 
-- The bars should be horizontal rather than vertical (`horiz=TRUE`).
-- The count axis should be labelled (`ylab="A title"`)
+- The bars should be horizontal rather than vertical.
+
 - The feature names should be added to the y axis. (set `names.arg` to the
-**Feature** column of the data frame)
-- The plot should be given a suitable title (`main="Some title"`)
-- The text labels should all be horizontal (`las=1`) Note that you can pass this parameter either via par, or as an additional option to barplot.
+**Feature** column of the data frame).
+
+- The plot should be given a suitable title.
+
+- The text labels should all be horizontal. Note that this parameter (along with many, many others) is documented in the `par()` function help page (i.e. see `?par`). What parameter setting should you use here? `r fitb(c("las=1", "las = 1"))`
+
 - The margins should be adjusted to accommodate the labels (par `mar` parameter). You need to supply a 4 element vector for the bottom, left, top and right margin values. 
 
+`r hide("Hint")`
+Look at the value of `par()$mar` to see what the default values are so you know where to start. Note that you will have to redraw the barplot after making the changes to par. 
 
-Look at the value of `par()$mar` to see what the default values are so you know where to start. Note that you will have to redraw the barplot after making the changes to par.  
+The parameter `las=1` will set the axis labels horizontal to the axis (see `?par`). 
+`r unhide()`
 
-
-```{r}
+```{r, echo=FALSE}
 par(mar=c(3.1, 11.1, 4.1, 2))
 barplot(mouse$Count, names.arg=mouse$Feature, 
         horiz=TRUE, ylab="", 
@@ -130,85 +259,182 @@ barplot(mouse$Count, names.arg=mouse$Feature,
         las=1, xlim=c(0,80000))
 ```
 
-## 2C. Histograms
-[**Extension if you have time**] Use this `hist()` function to plot out the distribution of 10000 points sampled from a standard normal distribution (use the `rnorm()` function) along with another 10000 points sampled from the same distribution but with an offset of 4.
+`r hide("Solution")`
+```{r, eval=FALSE}
+par(mar=c(3.1, 11.1, 4.1, 2))
+barplot(mouse$Count, names.arg=mouse$Feature, 
+        horiz=TRUE, ylab="", 
+        main="Number of features in the mouse GRCm38 genome", 
+        las=1, xlim=c(0,80000))
+```
+`r unhide()`
 
-- Example: `c(rnorm(10000),rnorm(10000)+4)`
+`r question_end()`
+
+
+## 2C. Histograms
+[**Extension if you have time**] We often want to understand how a particular variable is distributed in a dataset. Histograms and density plots provide the most intuitive visualizations of a given distribution. 
+
+`r question_start()`
+Use this `hist()` function to plot out the distribution of 10000 points sampled from a standard normal distribution (use the `rnorm()` function) along with another 10000 points sampled from the same distribution but with an offset of 4.
+
+- Example: `x <- c(rnorm(10000),rnorm(10000)+4)`
 - Find a suitable number of breaks to make the plot look nicer (`breaks=10` for example)
 
-```{r}
+```{r, echo=FALSE}
 x <- c(rnorm(10000),rnorm(10000)+4)
 hist(x, breaks=80)
 ```
 
+`r hide("Solution")`
+```{r, eval=FALSE}
+x <- c(rnorm(10000),rnorm(10000)+4)
+hist(x, breaks=80)
+```
+`r unhide()`
+`r question_end()`
+
 
 # Section 3: Using color in plots
 
+
 ## 3A. Providing color vectors
-**3A.** The file **male_female_counts.txt** contains a time series split into male and female count values.
+**3A.**There are three fundamental use cases for color in data visualizations: we can use color to distinguish groups of data from each other, to represent data values, and to highlight. In all cases with base R plotting functions we need to provide a vector of colors as input to the plotting function.
+
+`r question_start()`
+The file **male_female_counts.txt** contains a time series split into male and female count values.
 
 - Plot this as a barplot  
+
 - Make all bars different colors using the `rainbow()` function. 
- - Note that the `rainbow()` function takes a single argument, which is the number of colors to generate, eg `rainbow(10)`. Try making the vector of colors separately before passing it as the `col` argument to barplot (`col=rainbow(10)`).
- -  Rather than hard coding the number of colors, think how you could use the `nrow()` function to automatically generate the correct number of colors for the size of dataset.
-- Re-plot, and make the bars for the males a different color to those for the females. In this case the male and female samples alternate so you can just pass a 2 color vector to the col parameter to achieve this effect. (`col=c("blue2","red2")`) for example.
 
+> Note that the `rainbow()` function takes a single argument, which is the number of colors to generate, eg `rainbow(10)`. Try making the vector of colors separately before passing it as the `col` argument to barplot (`col=rainbow(10)`).
 
-```{r read3}
+-  Rather than hard coding the number of colors, think how you could use the `nrow()` function to automatically generate the correct number of colors for the size of dataset.
+
+```{r read3, echo=FALSE}
 mf <- read.delim("bimm143_05_rstats/male_female_counts.txt")
-```
 
-```{r}
 barplot(mf$Count, names.arg=mf$Sample, col=rainbow(nrow(mf)), 
         las=2, ylab="Counts")
 ```
 
-```{r}
+`r hide("Solution")`
+```{r read3_dummy, eval=FALSE}
+mf <- read.delim("bimm143_05_rstats/male_female_counts.txt")
+
+barplot(mf$Count, names.arg=mf$Sample, col=rainbow(nrow(mf)), 
+        las=2, ylab="Counts")
+```
+`r unhide()`
+
+<br />
+
+- Re-plot, and make the bars for the males a different color to those for the females. 
+
+`r hide("Hint")`
+In this case the male and female samples alternate so you can just pass a 2 color vector to the `col` parameter to achieve this effect. (e.g. `col=c("blue2","red2")`) for example.
+`r unhide()`
+
+```{r, echo=FALSE}
 barplot(mf$Count, names.arg=mf$Sample, col=c("blue2","red2"), 
         las=2, ylab="Counts")
 ```
 
+`r hide("Solution")`
+```{r, eval=FALSE}
+barplot(mf$Count, names.arg=mf$Sample, col=c("blue2","red2"), 
+        las=2, ylab="Counts")
+```
+`r unhide()`
+`r question_end()`
+
+
+
+
 ## 3B. Coloring by value
-**3B.** The file **up_down_expression.txt** contains an expression comparison dataset, but has an extra column which classifies the rows into one of 3 groups (up, down or unchanging). 
+**3B.** The file **up_down_expression.txt** contains an expression comparison dataset, but has an extra column that classifies the rows into one of 3 groups (up, down or unchanging). Here we aim to produce a scatterplot (plot) with the up being red, the down being blue and the unchanging being grey.
 
-Plot this as a scatterplot (plot) with the up being red, the down being blue and the unchanging being grey.
+`r question_start()`
+Import the **up_down_expression.txt** into an object called `genes`.
 
-- Read in the file to an object named `genes`
+- What **read** function would be the most straightforward to use for this input file? `r mcq(c("read.table()", "read.csv()", answer="read.delim()"))`
 
+
+`r hide("Solution")`
 ```{r, read4}
 genes <- read.delim("bimm143_05_rstats/up_down_expression.txt")
 ```
+`r unhide()`
 
-- How many genes are detailed in this file (i.e. how many rows are there)?
-- To determine how many genes are up, down and unchanging in their expression values between the two conditions we can inspect the `genes$State` column. A useful function for this is the `table()` function, e.g. try `table(genes$State)`.
+<br />
 
+- How many genes are detailed in this file (i.e. how many rows are there)? `r fitb( nrow(genes) )`
+
+`r hide("Solution")`
+You can use the `nrow()` function or the `dim()` function to find the number of rows:
+```{r}
+nrow(genes)
+```
+`r unhide()`
+
+<br />
+
+To determine how many genes are up, down and unchanging in their expression values between the two conditions we can inspect the `genes$State` column. A useful function for this is the `table()` function, e.g. try `table(genes$State)`.
+
+- How many genes are annotated as 'up' regulated in this dataset? `r fitb(127)`
+
+`r hide("Solution")`
 ```{r}
 table(genes$State)
 ```
+`r unhide()`
+
+<br />
 
 - For graphing start by just plotting the `Condition1` column against the `Condition2` column in a plot
 - Pass the `State` column as the `col` parameter (`col=genes$State` for
-example). This will set the color according to the state of each point, but the colors will be set automatically from the output of palette.
+example). This will set the color according to the state of each point, but the colors will be set automatically from the default output of `palette()`.
 
-
-```{r}
+```{r, echo=FALSE}
 plot(genes$Condition1, genes$Condition2, col=genes$State, 
-     xlab="Expression condition 1", ylab="Expresion condition 2")
+     xlab="Expression condition 1", ylab="Expression condition 2")
 ```
 
+`r hide("Solution")`
+```{r, eval=FALSE}
+plot(genes$Condition1, genes$Condition2, col=genes$State, 
+     xlab="Expression condition 1", ylab="Expression condition 2")
+```
+`r unhide()`
+
+<br />
+
  - Run `palette()` to see what colors are there initially and check that you can see how these relate to the colors you get in your plot.
+
 - Run `levels()` on the `State` column and match this with what you saw in
 `palette()` to see how each color was selected. Work out what colors you
 would need to put into palette to get the color selection you actually want.
+
 - Use the `palette()` function to set the corresponding colors you want to use (eg `palette(c("red","green","blue")`) – but using the correct colors
-in the correct order.
+in the correct order (up being red, the down being blue and the unchanging being grey).
+
 - Redraw the plot and check that the colors are now what you wanted.
 
-
-```{r}
+```{r, echo=FALSE}
 palette(c("blue","gray","red"))
-plot(genes$Condition1, genes$Condition2, col=genes$State, xlab="Expression condition 1", ylab="Expresion condition 2")
+plot(genes$Condition1, genes$Condition2, col=genes$State, xlab="Expression condition 1", ylab="Expression condition 2")
 ```
+
+`r hide("Solution")`
+```{r, eval=FALSE}
+palette(c("blue","gray","red"))
+plot(genes$Condition1, genes$Condition2, col=genes$State, xlab="Expression condition 1", ylab="Expression condition 2")
+```
+`r unhide()`
+
+`r question_end()`
+
 
 
 ## 3C. Dynamic use of color
@@ -219,34 +445,78 @@ The uses of color described above would be what you would use to do categorical 
 ### Coloring by point density
 One common use of dynamic color is to color a scatterplot by the number of points overlaid in a particular area so that you can get a better impression for where the majority of points fall. R has a built in function `densCols()` which can take in the data for a scatterplot and will calculate an appropriate color vector to use to accurately represent the density. This has a built in color scheme which is just shades of blue, but you can pass in your own color generating function (such as one generated by `colorRampPalette()`) to get whatever coloring you prefer. 
 
+`r question_start()`
 The file `expression_methylation.txt` contains data for gene body methylation, promoter methylation and gene expression.
 
 - Read this file into an R object called `meth`.
 
+`r hide("Solution")`
 ```{r}
 # Lets plot expresion vs gene regulation
 meth <- read.delim("bimm143_05_rstats/expression_methylation.txt")
 ```
+`r unhide()`
 
-- How many genes are in this dataset?
+<br />
+
+- How many genes are in this dataset? `r fitb(nrow(meth))`
+
+`r hide("Solution")`
+```{r}
+nrow(meth)
+```
+`r unhide()`
+
+<br />
+
 - Draw a scatterplot (plot) of the `gene.meth` column against the `expression` column.
 
+`r hide("Solution")`
 ```{r}
 plot(meth$gene.meth, meth$expression)
 ```
+`r unhide()`
+
+<br />
 
 - This is a busy plot with lots of data points in top of one another. Let improve it a little by coloring by point density. Use the `densCols()` function to make a new color vector that you can use in a new plot along with solid plotting character (e.g. `pch=20`).
 
-```{r}
+```{r, echo=FALSE}
 dcols <- densCols(meth$gene.meth, meth$expression)
 
 # Plot changing the plot character ('pch') to a solid circle
 plot(meth$gene.meth, meth$expression, col = dcols, pch = 20)
 ```
 
+
+`r hide("Solution")`
+```{r, eval=FALSE}
+dcols <- densCols(meth$gene.meth, meth$expression)
+
+# Plot changing the plot character ('pch') to a solid circle
+plot(meth$gene.meth, meth$expression, col = dcols, pch = 20)
+```
+`r unhide()`
+
+<br />
+
 It looks like most of the data is clustered near the origin. Lets restrict ourselves to the genes that have more than zero `expresion` values
 
-```{r}
+```{r, echo=FALSE}
+# Find the indices of genes with above 0 expresion
+inds <- meth$expression > 0
+
+# Plot just these genes
+#plot(meth$gene.meth[inds], meth$expression[inds])
+
+## Make a desnisty color vector for these genes and plot
+dcols <- densCols(meth$gene.meth[inds], meth$expression[inds])
+
+plot(meth$gene.meth[inds], meth$expression[inds], col = dcols, pch = 20)
+```
+
+`r hide("Solution")`
+```{r, eval=FALSE}
 # Find the indices of genes with above 0 expresion
 inds <- meth$expression > 0
 
@@ -258,10 +528,13 @@ dcols <- densCols(meth$gene.meth[inds], meth$expression[inds])
 
 plot(meth$gene.meth[inds], meth$expression[inds], col = dcols, pch = 20)
 ```
+`r unhide()`
+
+<br />
 
 - Change the `colramp` used by the `densCols()` function to go between blue, green, red and yellow with the `colorRampPalette()` function. 
 
-```{r}
+```{r, echo=FALSE}
 dcols.custom <- densCols(meth$gene.meth[inds], meth$expression[inds],
                          colramp = colorRampPalette(c("blue2",
                                                       "green2",
@@ -273,61 +546,36 @@ plot(meth$gene.meth[inds], meth$expression[inds],
 
 ```
 
+`r hide("Solution")`
+```{r, eval=FALSE}
+dcols.custom <- densCols(meth$gene.meth[inds], meth$expression[inds],
+                         colramp = colorRampPalette(c("blue2",
+                                                      "green2",
+                                                      "red2",
+                                                      "yellow")) )
 
+plot(meth$gene.meth[inds], meth$expression[inds], 
+     col = dcols.custom, pch = 20)
 
-
-# Section 4: Optional extension 
-## 4A. Mapping colors
-
-Whilst color in general is not a great way to represent quantitative data it can be sometimes useful to use the color of points in a plot as an extra quantitative variable. This will then require a way to map colors from a palette to values in a quantitative set. There is no built in base function within R to do this so we have borrowed one from a fictional lab mate - see the file `color_to_value_map.r` that contains a function `map.colors()` that may help us do this.
-
-### Understanding someone elses code
-**Note**: We will come back to this section next day to help explain **functions** and what makes a good and (in this case) BAD function.
-
-> This is an example of a poorly written function typical of something you might get from a lab mate that knows some R. We will discuss why it is poorly written next day. For now can you use it as described below? Points for discussion next day include: Can you figure out what this function is supposed to do? What format should the inputs be in order to work? How could we improve this function? 
-
-
-- Draw a scatterplot (plot) of the methylation dataset from the last section but this time plot the `promoter.meth` column against the `gene.meth` column.
-
-```{r}
-#meth <- read.delim("bimm143_05_rstats/expression_methylation.txt")
-
-plot(meth$promoter.meth, meth$gene.meth, ylab="Gene Methylation", xlab="Promotor Methylation")
 ```
+`r unhide()`
 
-- Now you can work on coloring this plot by the expression column. For this you are going to need to run the `map.colors()` function we provided. This requires two bits of data – one is simply the values in the expression column, but the other is a vector of colors which define your color scale.
-
-- You will need to start by constructing a color palette function from grey to red.
- - Run `colorRampPalette(c("grey","red"))` to show that you can
-generate a function which will make colors running from grey to red.
- - Call the function to generate a set of 100 colors and save these into a suitably named variable i.e: `colorRampPalette(c("grey","red"))(100)`.
-- Now generate your actual color vector you are going to use. Call the `map.colors()` function you have been given with the set of expression column values, and the vector of colors you just generated. Save the per point colors
-which are returned into a new variable.
-- Finally redraw the plot passing the per point colors to the `col` parameter.
+`r question_end()`
 
 
-```{r}
-# source the provided function so we can use it
-source("bimm143_05_rstats/color_to_value_map.r")
 
-mycols=map.colors(meth$expression, 
-                  c(max(meth$expression), min(meth$expression)), 
-                  colorRampPalette(c("blue","red"))(100))
 
-plot(meth$promoter.meth, meth$gene.meth, 
-     ylab="Gene Methylation", 
-     xlab="Promotor Methylation", 
-     col=mycols)
-```
 
-# Section 5: Detailed guide
+# Section 4: Detailed guide
 
 A detailed guide to plotting with base R is provided as a [PDF suplement](https://bioboot.github.io/bimm143_F18/class-material/lecture5-BIMM143_lab.pdf) that you can use as a reference whenever you need to plot data with base R. From **Page 7** onward it goes into more details and covers more plot types than we could in today's hands-on session.
 
-# Muddy Point Assesment
-Link to todays [muddy point assesment](https://goo.gl/forms/zi8wR5SIh3RRLZSk2).
+# Muddy Point Assessment
+Link to today's [muddy point assesment](https://goo.gl/forms/qIW4O4PUoixTzy7J2).
 
-# Session Info
+# About this document
+
+Here we use the `sessionInfo()` function to report on our R systems setup at the time of document execution. 
 
 ```{r}
 sessionInfo()
