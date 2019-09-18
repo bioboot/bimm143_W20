@@ -42,7 +42,7 @@ All announcements regarding the course will be by email to your UCSD address.
 ## Office hours & location:  
 Our instructional assistants will hold office hours twice a week on Tuesday and Thursday in TATA 2501 at 1:00 - 2:00 pm.    
 
-From week 3 onward Barry will hold an additional office hour from 12:30 -1:30 pm on Thursdays after class in TATA 2501 or, weather permitting, at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
+From week 3 onward Barry will hold an additional office hour from 12:30 -1:30 pm on Thursdays after class in TATA 2501 or, weather permitting, at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}{:target="_blank"}.  
 
 If you can't make any of these please email for a time and we will make it happen. Note that is often a good idea to email so we know to expect you.    
 
@@ -54,7 +54,7 @@ A detailed [syllabus]({{ site.baseurl }}/class-material/BIMM143_F19_syllabus.pdf
 
 ## Surveys:
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!
-* [Pre-course questionnaire](https://forms.gle/gEJQG9SdPSmf2ZS58)  
+* [Pre-course questionnaire](https://forms.gle/gEJQG9SdPSmf2ZS58){:target="_blank"}  
 * [Post-course questionnaire]({{ site.baseurl }}/404/)  
 
 ## Acknowledgments:
