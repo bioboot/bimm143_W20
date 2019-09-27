@@ -74,6 +74,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
   
 **Screen Casts**:  
 
+<br/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P2oSO7YPyfU?rel=0" frameborder="0" allowfullscreen></iframe>
 **1 Welcome to BIMM-143:**
@@ -121,7 +122,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Homework**:   
-- [Quiz Questions](https://forms.gle/18kNmShPJmEuEYrG7){:.no-push-state}{:target="_blank"},  
+- [Questions](https://forms.gle/18kNmShPJmEuEYrG7){:.no-push-state}{:target="_blank"},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BIMM134_homework.pdf){:.no-push-state}{:target="_blank"},  
 
 
@@ -156,6 +157,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 
 **Homework**:   
+- [Questions](https://docs.google.com/document/d/1AjrDB-XdfZyJUZmA-_KEqkNB5P1iUrMkKyj8QjGRM50/copy){:.no-push-state}{:target="_blank"},  
 - [DataCamp Sign Up & Homework: see your UCSD email invite!](https://www.datacamp.com){:.no-push-state},  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
