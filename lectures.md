@@ -59,7 +59,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},      
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-1-bimm143.pdf){:target="_blank"}{:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://forms.gle/AYLzthrUPqLkC5R68){:.no-push-state}{:target="_blank"},    
+- Feedback: [Muddy Point Assessment](https://forms.gle/WbEMU7kUdUutZptEA){:.no-push-state}{:target="_blank"},    
 
 - Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_S19_syllabus.pdf){:.no-push-state}{:target="_blank"},  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
@@ -116,7 +116,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},    
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}{:target="_blank"}  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143-lab.pdf){:.no-push-state}{:target="_blank"}  
-- Feedback: [Muddy Point Assessment](https://forms.gle/r5HJpcfaRpuruhxb7){:.no-push-state}{:target="_blank"}.   
+- Feedback: [Muddy Point Assessment](https://forms.gle/T1LnVTjLWp8ZJCJh9){:.no-push-state}{:target="_blank"}.   
      
 
 
