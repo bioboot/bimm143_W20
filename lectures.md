@@ -122,7 +122,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Homework**:   
-- [Questions](https://forms.gle/18kNmShPJmEuEYrG7){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,  
+- [Questions](https://forms.gle/18kNmShPJmEuEYrG7){:.no-push-state}{:target="_blank"},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BIMM134_homework.pdf){:.no-push-state}{:target="_blank"},  
 
 
@@ -151,13 +151,13 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},    
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143-lab.pdf){:.no-push-state}{:target="_blank"},  
 - Bonus: [Alignment App](https://bioboot.github.io/bimm143_S19/class-material/nw/){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy Point Assessment](https://forms.gle/8CUjrkqV95Khu56C9){:.no-push-state}{:target="_blank"}.   
+- Feedback: [Muddy Point Assessment](https://forms.gle/iXRzWhffGrFaXnQGA){:.no-push-state}{:target="_blank"}.   
   
 
 
 
 **Homework**:   
-- [Questions](https://docs.google.com/document/d/1AjrDB-XdfZyJUZmA-_KEqkNB5P1iUrMkKyj8QjGRM50/copy){:.no-push-state}{:target="_blank"},  
+- [Questions](https://docs.google.com/document/d/1AjrDB-XdfZyJUZmA-_KEqkNB5P1iUrMkKyj8QjGRM50/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,   
 - [DataCamp Sign Up & Homework: see your UCSD email invite!](https://www.datacamp.com){:.no-push-state},  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
