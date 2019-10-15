@@ -214,7 +214,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  
  
 **Homework**:   
-- This units homework is all [via **DataCamp** (Intro to R, RStudio IDE, Intermideate R)](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.   
+- This units homework is all [via **DataCamp** (Intro to R, Intermideate R)](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.   
  
 
 
