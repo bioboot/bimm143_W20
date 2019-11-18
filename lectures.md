@@ -652,7 +652,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Software Download: [Cytoscape](https://cytoscape.org/download.html){:.no-push-state}{:target="_blank"},  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}.  
 - [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BIMM143_S18_lab1.pdf){:.no-push-state}{:target="_blank"},  
-- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_S19_new.html){:.no-push-state}{:target="_blank"},  
+- [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_lab2.html){:.no-push-state}{:target="_blank"},  
 - Data files:  
   - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
   - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
