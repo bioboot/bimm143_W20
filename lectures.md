@@ -28,12 +28,13 @@ material.
 | 10 | Thu 10/31/19 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.                                                                                                                                |
 | 11 | Tue 11/05/19 | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure                                                                                                                                                                                                                                                                                    |
 | 12 | Thu 11/07/19 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization                                                                                                                                                                                                                                            |
-| 13 | Tue 11/12/19 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2                                                                                                                 |
-| 14 | Thu 11/14/19 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today\!                                                                                                                                                                                     |
-| 15 | Tue 11/19/19 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment                                                                                                                                                                                                                                                                               |
-| 16 | Thu 11/21/19 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in ‘omics’ data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages.                                                                                                                                                                            |
-| 17 | Tue 11/26/19 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due before next class\!  |
-| 18 | Thu 11/28/19 | [**Happy Thanksgiving!**](#18) <br> **N.B.** No class today but please note that your find a gene assignment is due before next class\!                                                                             |
+| 13* | Tue 11/12/19 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2                                                                                                                 |
+| 14 | Tue 11/12/19 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today\!                                                                                                                                                                                     |
+| 15 | Thu 11/14/19 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment                                                                                                                                                                                                                                                                               |
+| 17* | Tue 11/19/19  | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in ‘omics’ data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages.                                                                                                                                                                            |
+| 16* | Thu 11/21/19 | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.  |
+| 18 | Tue 11/26/19 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due before next Friday's class\!  |
+|  | Thu 11/28/19 | [**Happy Thanksgiving!**](#18) <br> **N.B.** No class today but please note that your find a gene assignment is due before next class\!                                                                             |
 | 19 | Tue 12/03/19 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due\!**                                                                                                                                                                                                                                                                                                                           |
 | 20 | Thu 12/05/19 | [**Final exam\!**](#20)                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
@@ -556,83 +557,68 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 ## IPs    
-- 149.165.156.163  
-- 149.165.157.92  
+- (01)  **54.68.182.225** (HOLD)
+- (02)  **54.189.169.250**
 
-- 129.114.104.86   
-- 129.114.104.143  
+- (03)  **35.163.70.54**
+- (04)  **52.43.128.251**
 
-- 149.165.168.15  
-- 129.114.104.202  
+- (05)  **34.211.228.140**
+- (06)  **34.215.96.32**
 
-- 149.165.168.84  
-- 149.165.170.201  
+- (07)  **HOLD**
+- (08)  **34.209.87.222**
 
-- 149.165.168.122  
-- 149.165.168.213  
+- (09)  **54.149.119.57**
+- (10)  **54.188.13.147**
 
+- (11)  **18.237.84.45**
+- (12)  **52.41.50.57**
 
-- 149.165.168.101  
-- 149.165.169.177  
+- (13)  **18.236.143.14**
+- (14)  **35.164.171.59**
 
-- 149.165.171.57  
-- 149.165.170.13  
+- (15)  **52.25.18.248**
+- (16)  **52.10.25.88**
 
-- 149.165.168.235  
-- 149.165.171.19  
+- (17)  **52.27.151.124**
+- (18)  **34.222.134.9**
 
-- 149.165.170.49  
-- 149.165.170.243  
+- (19)  **34.221.179.45**
+- (20)  **18.237.252.10**
 
-- 149.165.171.97  
-- 149.165.170.75  
+- (21)  **54.202.63.58**
+- (22)  **34.221.163.124** 
 
+- (23-31)  **HOLD-**
+- (32)  **34.211.23.184**
 
-- 149.165.170.202  
-- 149.165.171.133  
+- (33)  **52.27.103.10**
+- (34)  **34.211.99.242**
 
-- 149.165.171.173  
-- 149.165.170.169  
+- (35)  **54.245.222.241**
+- (36)  **54.149.122.32**
 
-- 149.165.169.171  
-- 149.165.170.130  
+- (37)  **54.69.247.45**
+- (38)  **34.221.177.237**
 
-- 149.165.171.9  
-- 149.165.171.152 (HOLD 28)
+- (39)  **34.222.145.209**
+- (40)  **18.236.154.101**
 
-- 129.114.104.70  
-- 129.114.104.241  
+- (41)  **34.215.234.71**
+- (42)  **18.237.105.164**
 
-- 129.114.104.17  
-- 129.114.16.67
+- (43)  **54.218.159.21**
+- (44)  **34.221.162.36**
 
-- 129.114.16.59
-- 129.114.16.169
+- (45)  **34.217.58.181**
+- (46)  **54.244.198.91**
 
-- 129.114.16.94
-- 129.114.16.200
+- (47)  **54.190.60.70**
+- (48)  **52.43.9.18**
 
-- 129.114.16.173
-- 129.114.16.111
-
-- 129.114.16.154
-- 129.114.16.123
-
-- 129.114.16.166
-- 129.114.16.101
-
-- 129.114.19.3
-- 129.114.19.37
-
-- 129.114.19.32
-- 129.114.19.40
-
-- 129.114.19.10
-- 129.114.19.39
-
-- 129.114.19.8
-- 129.114.19.31
-
+- (49)  **34.221.95.56**
+- (50)  **52.38.53.33** (HOLD)
 
 <hr>
 <a name="17"></a>
