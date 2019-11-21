@@ -548,9 +548,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
 - Hands-on section worksheet
-  * [Using remote UNIX machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/){:.no-push-state}{:target="_blank"},
-  * [Using remote UNIX machines (Part II)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
-  * [Using remote UNIX machines (Part III)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
+  * [Using remote UNIX machines (Part I, **REQUIRED**)]({{ site.baseurl }}/class-material/17_blast-01/){:.no-push-state}{:target="_blank"},
+  * [Using remote UNIX machines (Part II, Optional)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
+  * [Using remote UNIX machines (Part III, Optional)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
 - Example data set [bggn213_01_unix.zip]({{ site.baseurl }}/class-material/bggn213_01_unix.zip){:.no-push-state},  
 - [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}{:target="_blank"}.  
 
