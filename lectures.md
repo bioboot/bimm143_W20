@@ -663,7 +663,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 **Material**: 
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W19_Barry-large.pdf){:.no-push-state}{:target="_blank"},   
-- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BIMM143_W19.html){:.no-push-state}{:target="_blank"},  
+- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BIMM143_W18.html){:.no-push-state}{:target="_blank"},  
 - [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BIMM143_W18/){:.no-push-state}{:target="_blank"},  
 - Data files:  
   - [lecture18_sequences.fa]({{ site.baseurl }}/class-material/lecture18_sequences.fa){:.no-push-state}{:target="_blank"},  
