@@ -58,13 +58,13 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},      
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-1-bimm143.pdf){:target="_blank"}{:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://forms.gle/u459pkRcQw8RM5im6){:.no-push-state}{:target="_blank"},    
+- Feedback: [Muddy Point Assessment](https://forms.gle/fHMc1C5gd7hh5eog7){:.no-push-state}{:target="_blank"},    
 
 - Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_S19_syllabus.pdf){:.no-push-state}{:target="_blank"},  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
-- [Questions](https://forms.gle/jRXrAgtn1VW2nffF6){:.no-push-state}{:target="_blank"},  
+- [Questions](https://forms.gle/dtaBRcPb1ydGJceUA){:.no-push-state}{:target="_blank"},  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state}.  
