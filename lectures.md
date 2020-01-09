@@ -6,7 +6,7 @@ order: 2
 ---
 
 
-All Lectures are Tu/Th 9:00-12:30 pm in TATA 2501
+All Lectures are Tu/Th 9:30-12:30 pm in TATA 2501
 (<a href="https://goo.gl/maps/Cd8z9Zexx6q">Map</a>). Clicking on the
 class topics below will take you to corresponding lecture notes,
 homework assignments, pre-class video screen-casts and required reading
