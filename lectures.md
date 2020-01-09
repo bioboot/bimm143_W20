@@ -121,7 +121,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Homework**:   
-- [Questions](https://forms.gle/18kNmShPJmEuEYrG7){:.no-push-state}{:target="_blank"},  
+- [Questions](https://forms.gle/hx4mLpUouH6XmCk9A){:.no-push-state}{:target="_blank"},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BIMM134_homework.pdf){:.no-push-state}{:target="_blank"},  
 
 
