@@ -140,17 +140,19 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST, Profiles and HMMs, Protein structure comparisons, Beginning with command line based database searches.
 
 **Goal**:  
-- Be able to calculate the alignment score between two nucleotide or protein sequences using a provided scoring matrix
-- Understand the limits of homology detection with tools such as BLAST 
-- Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.
-- Run our first bioinformatics tool from the command line.
+- Be able to calculate the alignment score between protein (or nucleotide) sequences using a provided scoring matrix such as BLOSUM62.  
+- Understand the limits of homology detection with tools such as BLAST.  
+- Know how to derive a PROSITE style regular expression for aligned motifs.  
+- Be able to calculate a PSSM profile and for aligned sequences and subsequently score new sequences using a PSSM.  
+- Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.  
+- Be familiar with the concepts of True Positives, False Positives, Sensitivity and Specificity.  
 
 **Material**:   
  
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},    
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143-lab.pdf){:.no-push-state}{:target="_blank"},  
 - Bonus: [Alignment App](https://bioboot.github.io/bimm143_W20/class-material/nw/){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy Point Assessment](https://forms.gle/iXRzWhffGrFaXnQGA){:.no-push-state}{:target="_blank"}.   
+- Feedback: [Muddy Point Assessment](https://forms.gle/Xz6PxjTzwwZe3erv6){:.no-push-state}{:target="_blank"}.   
   
 
 

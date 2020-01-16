@@ -11,7 +11,7 @@ Barry Grant &lt; <http://thegrantlab.org> &gt;
 
 R is powerful data programming language that you can use to explore and understand data in an open-ended, highly interactive, iterative way. Learning R will give you the freedom to experiment and problem solve during data analysis — exactly what we need as bioinformaticians.
 
-Before delving into working with real data in R, we need to learn the basics of the R language. In this section, we’ll learn how to do simple calculations in R, assign values to variables, and call functions. Then, we’ll look at R’s vectors, vector data types, and vectorization. Vectors and vectorization underpin how we approach many problems in R.
+Before delving into working with real data in R, we need to learn the basics of the R language. In this section, we’ll learn how to do simple calculations in R, assign values to variables, and call functions. Then, we’ll look at R’s vectors, vector data types, and vectorization. This is not the most exciting thing in the world but it is important because vectors and vectorization underpin how we approach many problems in R.
 
 ### 2. Simple Calculations
 
@@ -59,13 +59,13 @@ All R statements where you create objects -- "assignments" -- have this form:
 objectName <- value  
 ```
 
-and in my head I hear, e.g., "x gets 12".
+and in my head I hear: objectName gets value, e.g.,  "x gets 12".
 
-You will make lots of assignments and the operator `<-` is a pain to type. Don't be lazy and use `=`, although it would work, because it will just sow confusion later. Instead, utilize RStudio's keyboard shortcut: Alt + - (the minus sign).
+You will make lots of assignments and the operator `<-` is a pain to type. Don't be lazy and use `=`, although it would work, because it will just sow confusion later. Instead, utilize RStudio's keyboard shortcut: On a PC `Alt + -` (that is push the Alt button with the minus sign button); On a Mac it is Option + - (that is push the Option button with the minus sign button).
 
 Notice that RStudio automagically surrounds `<-` with spaces, which demonstrates a useful code formatting practice. Code is miserable to read on a good day. Give your eyes a break and use spaces.
 
-RStudio offers many handy [keyboard shortcuts](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts). Also, Alt+Shift+K brings up a keyboard shortcut reference card.
+RStudio offers many handy [keyboard shortcuts](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts). Also, Alt+Shift+K brings up a keyboard shortcut reference card. Check them out!
 
 #### A note about object names
 
@@ -83,7 +83,7 @@ Make another assignment
 this_is_a_really_long_name <- 2.5  
 ```
 
-To inspect this, try out RStudio's completion facility: type the first few characters, press TAB, add characters until you disambiguate, then press return.
+To inspect this, try out RStudio's completion facility: type the first few characters, press `TAB`, add characters until you disambiguate, then press return.
 
 Make another assignment
 
@@ -105,7 +105,7 @@ What happened? What about this one?
 R_rocks
 ```
 
-> **Conclusion:** When we programm we enter into an implicit contract with the computer. The computer will do tedious computation for you. In return, you will be completely precise in your instructions. Typos matter. Case matters. **Therefore get better at typing!**
+> **Conclusion:** When we program we enter into an implicit contract with the computer. The computer will do tedious computation for you. In return, you will be completely precise in your instructions. Typos matter. Case matters. **Therefore get better at typing!**
 
 ### 4. Calling Functions
 
@@ -139,7 +139,9 @@ seq(1,10, by=2)
 
     ## [1] 1 3 5 7 9
 
-Could you of figured this out from the documentation accessed via the command `?seq` or `help(seq)`? One very useful part of a functions documentation is the **Examples** section (typically found at the very end of the documentation entry).
+Could you of figured this out from the documentation accessed via the command `?seq` or `help(seq)`?  
+
+One very useful part of a functions documentation is the **Examples** section (typically found at the very end of the documentation entry).
 
 You can copy and paste these into your session or execute them all in one go with the `examples()` function, e.g.
 
