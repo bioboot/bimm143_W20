@@ -185,7 +185,9 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 
 **Homework**:   
-- [DataCamp Assignment: Into to R!](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.    
+- Due today: [DataCamp, Into to R!](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.  
+- Due next week: [DataCamp, Intermediate R!](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.    
+
 
 
 
