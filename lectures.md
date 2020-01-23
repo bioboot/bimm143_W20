@@ -186,7 +186,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Homework**:   
 - Due today: [DataCamp, Into to R!](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.  
-- Due next week: [DataCamp, Intermediate R!](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.    
+- Due next week: [DataCamp,  Intermediate R!](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.    
 
 
 
@@ -243,7 +243,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 
 **Homework**:   
-- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9:30am **Th, 04/25/19**).    
+- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9:30am next **Th, 01/30/20**).    
 - The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/){:.no-push-state}.   
  
 
