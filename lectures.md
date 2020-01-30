@@ -23,7 +23,8 @@ material.
 | 5  | Tue 01/21/20 | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Using and customizing base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot and rgl                                                                                                                                                                                                |
 | 6  | Thu 01/23/20 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use                                                                                                                                                                                                                                                                                     |
 | 7  | Tue 01/28/20 | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data                                                                                                                                                                                                                                                           |
-| 8  | Thu 01/30/20 | [**Introduction to machine learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
+| 0  | Thu 01/30/20 | [**Guest Lecture**: Epigenetics and 3D genome organization](#0) <br> Guest lecture from [Ferhat Ay (LJI)](https://www.lji.org/faculty-research/labs/ay/#overview) introducing epigenetics research and supporting bioinformatics methods and tools.                                                                                                                                                                                                                                                           |
+| 8  |hold | [**Introduction to machine learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
 | 9  | Tue 02/04/20 | [**Unsupervised learning mini-project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
 | 10 | Thu 02/06/20 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.                                                                                                                                |
 | 11 | Tue 02/11/20 | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure                                                                                                                                                                                                                                                                                    |
@@ -274,6 +275,20 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/){:.no-push-state}.   
  
 
+
+<hr>
+<a name="0"></a>
+<br>
+
+## 7: Epigenetics and 3D genome organization
+
+**Topics**: Guest lecture from [Ferhat Ay (LJI)](https://www.lji.org/faculty-research/labs/ay/#overview){:.no-push-state}{:target="_blank"} introducing epigenetics research and supporting bioinformatics methods and tools. 
+
+
+**Material**:
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/LectureSlides-01-30-2020-FerhatAy.pdf){:.no-push-state}{:target="_blank"}
+- Supporting files: [simulateCpGmethylation.r]({{ site.baseurl }}/class-material/simulateCpGmethylation.r){:.no-push-state}, [ImmuneCell-ChIPseq-PCHiC.json]({{ site.baseurl }}/class-material/ImmuneCell-ChIPseq-PCHiC.json){:.no-push-state}.  
+ 
 
 
 

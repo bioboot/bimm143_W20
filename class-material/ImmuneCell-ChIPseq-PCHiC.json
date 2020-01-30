@@ -1,0 +1,159 @@
+[
+
+	{
+	type:"bigwig",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/Projects/2018_HiChIP_FiveImmuneCell_Vivek/Results/ChIP_Seq/CD4N/Merge_Specific_Donors/merged_CD4_Naive_ChIPSeq.bw",
+	name:"CD4N_Merged_Donors_ChIP_Track",
+	height:60,
+	fixedscale:{min:0,max:20},
+	showOnHubLoad:true,
+	options: {
+		color:"#1E90FF",
+	},
+	},
+	
+	{
+	type:"bedgraph",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/Projects/2018_HiChIP_FiveImmuneCell_Vivek/Results/Session_Details/Peak_CD4_Naive_Cell_FDR0.01.bedGraph.gz",
+	name:"CD4N_Merged_Donors_ChIP_Peaks",
+	mode:"Density",
+	height:60,
+	fixedscale:{min:0,max:5},
+	showOnHubLoad:true,
+	options: {
+		color:"#1E90FF",
+	},
+	},
+
+	{
+	type:"bigwig",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/Projects/2018_HiChIP_FiveImmuneCell_Vivek/Results/ChIP_Seq/CD8N/Merge_Specific_Donors/merged_CD8_Naive_ChIPSeq.bw",
+	name:"CD8N_Merged_Donors_ChIP_Track",
+	height:60,
+	fixedscale:{min:0,max:20},
+	showOnHubLoad:true,
+	options: {
+		color:"#EE82EE",
+	},
+	},
+
+	{
+	type:"bedgraph",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/Projects/2018_HiChIP_FiveImmuneCell_Vivek/Results/Session_Details/Peak_CD8_Naive_Cell_FDR0.01.bedGraph.gz",
+	name:"CD8N_Merged_Donors_ChIP_Peaks",
+	mode:"Density",
+	height:60,
+	fixedscale:{min:0,max:5},
+	showOnHubLoad:true,
+	options: {
+		color:"#EE82EE",
+	},
+	},
+	
+	{
+	type:"bigwig",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/Projects/2018_HiChIP_FiveImmuneCell_Vivek/Results/ChIP_Seq/Mono/Merge_Specific_Donors/merged_Monocyte_Cell_ChIPSeq.bw",
+	name:"Monocyte_Merged_Donors_ChIP_Track",
+	height:60,
+	fixedscale:{min:0,max:20},
+	showOnHubLoad:true,
+	options: {
+		color:"#A52A2A",
+	},
+	},
+
+	{
+	type:"bedgraph",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/Projects/2018_HiChIP_FiveImmuneCell_Vivek/Results/Session_Details/Peak_Monocyte_Cell_FDR0.01.bedGraph.gz",
+	name:"Monocyte_Merged_Donors_ChIP_Peaks",
+	mode:"Density",
+	height:60,
+	fixedscale:{min:0,max:5},
+	showOnHubLoad:true,
+	options: {
+		color:"#A52A2A",
+	},
+	},
+
+	{
+	type:"bigwig",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/Projects/2018_HiChIP_FiveImmuneCell_Vivek/Results/ChIP_Seq/NB/Merge_Specific_Donors/merged_B_Cell_ChIPSeq_sorted.bw",
+	name:"NB_Merged_Donors_ChIP_Track",
+	height:60,
+	fixedscale:{min:0,max:20},
+	showOnHubLoad:true,
+	options: {
+		color:"#228B22",
+	},
+	},
+
+	{
+	type:"bedgraph",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/Projects/2018_HiChIP_FiveImmuneCell_Vivek/Results/Session_Details/Peak_NB_Cell_FDR0.01.bedGraph.gz",
+	name:"NB_Merged_Donors_ChIP_Peaks",
+	mode:"Density",
+	height:60,
+	fixedscale:{min:0,max:5},
+	showOnHubLoad:true,
+	options: {
+		color:"#228B22",
+	},
+	},
+
+	{	
+	type:"longrange",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/DATA/CaptureHiC/Javierre_2016/Detected_Interactions/PCHiC/Cell_Type_Specific_Loops/CD4N/PCHiC_peak_matrix_cutoff5_CD4N_DistThr_10Kb_3Mb_WashU.bed.gz",
+	name:"CD4N PCHi-C (Javierre, 2016)",
+	showOnHubLoad:true,
+	options: {
+		color:"#1E90FF",	
+		displayMode:"arc",
+		scoreScale:"fixed",
+		scoreMax:10,
+		scoreMin:0
+	},
+	},	
+
+	{
+	type:"longrange",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/DATA/CaptureHiC/Javierre_2016/Detected_Interactions/PCHiC/Cell_Type_Specific_Loops/CD8N/PCHiC_peak_matrix_cutoff5_CD8N_DistThr_10Kb_3Mb_WashU.bed.gz",
+	name:"CD8N PCHi-C (Javierre, 2016)",
+	showOnHubLoad:true,
+	options: {
+		color:"#EE82EE",	
+		displayMode:"arc",
+		scoreScale:"fixed",
+		scoreMax:10,
+		scoreMin:0
+	},
+	},	
+
+	{
+	type:"longrange",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/DATA/CaptureHiC/Javierre_2016/Detected_Interactions/PCHiC/Cell_Type_Specific_Loops/Monocyte/PCHiC_peak_matrix_cutoff5_Monocyte_DistThr_10Kb_3Mb_WashU.bed.gz",
+	name:"Monocyte PCHi-C (Javierre, 2016)",
+	showOnHubLoad:true,
+	options: {
+		color:"#A52A2A",	
+		displayMode:"arc",
+		scoreScale:"fixed",
+		scoreMax:10,
+		scoreMin:0
+	},
+	},	
+
+	{
+	type:"longrange",
+	url:"https://informaticsdata.liai.org/BioAdHoc/Groups/vd-vijay/sourya/DATA/CaptureHiC/Javierre_2016/Detected_Interactions/PCHiC/Cell_Type_Specific_Loops/NB/PCHiC_peak_matrix_cutoff5_NB_DistThr_10Kb_3Mb_WashU.bed.gz",
+	name:"NB PCHi-C (Javierre, 2016)",
+	showOnHubLoad:true,
+	options: {
+		color:"#228B22",	
+		displayMode:"arc",
+		scoreScale:"fixed",
+		scoreMax:10,
+		scoreMin:0
+	},
+	},	
+
+]
