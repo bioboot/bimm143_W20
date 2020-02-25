@@ -446,46 +446,47 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
 
 ## IPs     
-- 129.114.104.173  
-- 129.114.16.169  
-
-- 129.114.16.94  
-- 149.165.169.213  
-
-- 149.165.171.133  
-- 149.165.171.141  
-
-- 149.165.170.201  
-- 149.165.169.46  
-
-- 149.165.170.231  
-- 149.165.171.103  
-
-- 149.165.171.97  
-- 149.165.171.92  
-
-- 149.165.171.154  
-- 149.165.171.174  
-
-- 149.165.171.9  
-- 149.165.171.63 (Deploying).   
-
-- 149.165.171.28  
-- 149.165.171.138  
-
-- 149.165.171.81  
-- 129.114.16.154  
-
-- 149.165.171.156  
-- 149.165.171.159  
-
-- 149.165.171.172  
-- 149.165.171.161 (Deploying)  
-
-- 149.165.171.165  
-- 149.165.171.19  
-
-- **HOLD** 149.165.168.59 (BG)  
+- nt1  IP: http://3.212.78.120/galaxy  
+- nt2  IP: http://3.231.195.172/galaxy  
+- nt3  IP: http://3.233.51.90/galaxy  
+- nt4  IP: http://34.192.179.40/galaxy  
+- nt5  IP: http://34.226.129.36/galaxy  
+- nt6  IP: http://34.239.11.51/galaxy  
+- nt7  IP: http://54.81.229.84/galaxy  
+- nt8  IP: http://54.162.243.50/galaxy  
+- nt9  IP: http://34.226.166.168/galaxy  
+- nt10  IP: http://3.212.58.204/galaxy  
+- nt11  IP: http://34.205.38.109/galaxy  
+- nt12  IP: http://34.204.165.71/galaxy  
+- nt13  IP: http://34.236.90.80/galaxy  
+- nt14  IP: http://3.221.13.134/galaxy  
+- nt15  IP: http://52.207.1.70/galaxy  
+- nt16  IP: http://34.200.165.54/galaxy  
+- nt17  IP: http://34.225.10.96/galaxy  
+- nt18  IP: http://18.213.25.125/galaxy  
+- nt19  IP: http://50.17.174.193/galaxy  
+- nt20  IP: http://3.89.151.246/galaxy  
+- nt21  IP: http://18.233.39.50/galaxy  
+- nt22  IP: http://3.221.138.207/galaxy  
+- nt23  IP: http://3.94.155.106/galaxy  
+- nt24  IP: http://18.206.19.101/galaxy  
+- nt25  IP: http://3.215.105.211/galaxy  
+- nt26  IP: http://52.200.131.205/galaxy  
+- nt27  IP: http://3.211.41.239/galaxy  
+- nt28  IP: http://34.232.156.170/galaxy  
+- nt29  IP: http://52.70.103.185/galaxy  
+- nt30  IP: http://3.233.175.78/galaxy  
+- nt31  IP: http://3.208.130.150/galaxy  
+- nt32  IP: http://52.20.155.201/galaxy  
+- nt33  IP: http://18.210.213.47/galaxy  
+- nt34  IP: http://52.54.167.132/galaxy  
+- nt35  IP: http://3.210.4.176/galaxy  
+- nt36  IP: http://52.44.69.180/galaxy  
+- nt37  IP: http://52.70.112.94/galaxy  
+- nt38  IP: http://107.23.47.165/galaxy  
+- nt39  IP: http://3.221.25.194/galaxy  
+- nt40  IP: http://52.7.189.101/galaxy  
+- ntbarry  IP: http://54.205.42.68/galaxy  (HOLD)    
 
 
 
