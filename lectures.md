@@ -539,7 +539,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
  
 
 **R Knowledge Check**:
-[**Quiz Assessment**](https://forms.gle/rmQBD3jJq29JMFzH9){:.no-push-state}{:target="_blank"}. 
+[**Quiz Assessment**](https://forms.gle/qnVdsaGCPii4z3DD6){:.no-push-state}{:target="_blank"}. 
 
 
 **Readings**:    
